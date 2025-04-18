@@ -1,3 +1,5 @@
+import logger from "../utils/LoggerUtil";
+
 export default async function globalSetup() {
-	console.log("⚙️ Global setup ran");
+	logger.info("⚙️ Global setup is completed.");
 }

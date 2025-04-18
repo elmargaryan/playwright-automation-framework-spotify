@@ -1,9 +1,9 @@
-import { expect } from "@playwright/test";
+import logger from "../utils/LoggerUtil";
 import { test } from "./baseTest";
-
 
 test("sample test", async ({ newPage }) => {
 	await newPage.goToPage("https://playwright.dev/");
+	logger.info("First test finished running.");
 });
 
 // test("get started link", async ({ page }) => {

@@ -1,3 +1,5 @@
+import logger from "../utils/LoggerUtil";
+
 export default async function globalTeardown() {
-	console.log("🧹 Global teardown ran (nothing to clean yet)");
+	logger.info("🧹 Global teardown ran (nothing to clean yet)");
 }
