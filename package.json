@@ -12,6 +12,7 @@
 	"author": "Elen Margaryan",
 	"license": "",
 	"dependencies": {
+		"dotenv": "^16.5.0",
 		"playwright": "^1.52.0",
 		"winston": "^3.17.0"
 	},

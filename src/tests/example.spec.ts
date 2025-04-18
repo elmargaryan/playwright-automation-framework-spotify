@@ -4,6 +4,7 @@ import { test } from "./baseTest";
 test("sample test", async ({ newPage }) => {
 	await newPage.goToPage("https://playwright.dev/");
 	logger.info("First test finished running.");
+	logger.info(process.env.username!);
 });
 
 // test("get started link", async ({ page }) => {

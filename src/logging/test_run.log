@@ -3,3 +3,17 @@
 2025-04-18 13:08:12 [info] ⚙️ Global setup is completed.
 2025-04-18 13:08:14 [info] Navigated to https://playwright.dev//[insert page url]
 2025-04-18 13:08:14 [info] First test finished running.
+2025-04-18 13:23:44 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-18 13:25:13 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-18 13:25:16 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-18 13:28:30 [info] ⚙️ Global setup is completed.
+2025-04-18 13:28:33 [info] Navigated to https://playwright.dev//[insert page url]
+2025-04-18 13:28:33 [info] First test finished running.
+2025-04-18 13:28:33 [info] username
+2025-04-18 13:29:01 [info] ⚙️ Global setup is completed.
+2025-04-18 13:29:03 [info] Navigated to https://playwright.dev//[insert page url]
+2025-04-18 13:29:03 [info] First test finished running.
+2025-04-18 13:29:03 [info] undefined
+2025-04-18 13:29:13 [info] Navigated to https://playwright.dev//[insert page url]
+2025-04-18 13:29:13 [info] First test finished running.
+2025-04-18 13:29:13 [info] username123
