@@ -53,3 +53,59 @@
 2025-04-18 14:10:11 [info] Navigated to https://playwright.dev//[insert page url]
 2025-04-18 14:10:11 [info] First test finished running.
 2025-04-18 14:10:11 [info] username123
+2025-04-19 16:50:21 [info] ⚙️ Global setup is completed.
+2025-04-19 16:50:50 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-19 16:51:10 [info] ⚙️ Global setup is completed.
+2025-04-19 16:52:19 [info] ⚙️ Global setup is completed.
+2025-04-19 16:58:11 [info] ⚙️ Global setup is completed.
+2025-04-19 16:58:16 [info] No popup appeared, continuing with login.
+2025-04-19 17:05:13 [info] No popup appeared, continuing with login.
+2025-04-19 17:06:11 [info] ⚙️ Global setup is completed.
+2025-04-19 17:06:19 [info] ⚙️ Global setup is completed.
+2025-04-19 17:08:53 [info] ⚙️ Global setup is completed.
+2025-04-19 17:11:06 [info] No popup appeared, continuing with login.
+2025-04-19 17:11:57 [info] No popup appeared, continuing with login.
+2025-04-19 17:12:12 [info] Login with password was chosen.
+2025-04-19 17:13:21 [info] No popup appeared, continuing with login.
+2025-04-19 17:13:24 [info] Password input was shown and filled in.
+2025-04-19 17:13:37 [info] Popup appeared and was closed.
+2025-04-19 17:13:39 [info] Password input was shown and filled in.
+2025-04-19 17:14:30 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-19 17:14:36 [info] No popup appeared, continuing with login.
+2025-04-19 17:14:47 [info] Login with password was chosen.
+2025-04-19 17:14:51 [info] Test for login is completed
+2025-04-19 17:14:52 [info] Auth state is saved
+2025-04-19 17:15:00 [info] Popup appeared and was closed.
+2025-04-19 17:15:02 [info] Password input was shown and filled in.
+2025-04-19 17:15:06 [info] Test for login is completed
+2025-04-19 17:15:07 [info] Auth state is saved
+2025-04-19 18:40:39 [info] ⚙️ Global setup is completed.
+2025-04-19 18:40:43 [info] Navigated to https://playwright.dev//[insert page url]
+2025-04-19 18:40:43 [info] Encryption complete. Updated .env file.
+2025-04-19 18:40:43 [info] 
+2025-04-19 18:40:43 [info] First test finished running.
+2025-04-19 18:41:00 [info] ⚙️ Global setup is completed.
+2025-04-19 18:41:04 [info] elenhmargaryan@gmail.com
+2025-04-19 18:41:04 [info] First test finished running.
+2025-04-19 19:17:44 [info] Navigated to /login
+2025-04-19 19:19:16 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-19 19:19:18 [info] ⚙️ Global setup is completed.
+2025-04-19 19:19:32 [info] Navigated to /login
+2025-04-19 19:22:41 [info] ⚙️ Global setup is completed.
+2025-04-19 19:22:46 [info] Navigated to https://accounts.spotify.com/login/login
+2025-04-19 19:23:06 [info] Navigated to https://accounts.spotify.com/login
+2025-04-19 19:23:06 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-19 19:23:06 [info] Password input was shown and filled in.
+2025-04-19 19:23:20 [info] Navigated to https://accounts.spotify.com/login
+2025-04-19 19:23:20 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-19 19:23:20 [info] Password input was shown and filled in.
+2025-04-20 19:26:01 [info] ⚙️ Global setup is completed.
+2025-04-20 19:26:20 [info] Navigated to https://accounts.spotify.com/login
+2025-04-20 19:26:21 [info] Element "getByTestId('login-password')" not found. Continuing with other flow...
+2025-04-20 19:26:32 [info] Login with password was chosen.
+2025-04-20 19:32:36 [info] ⚙️ Global setup is completed.
+2025-04-20 19:32:42 [info] Navigated to https://accounts.spotify.com/login
+2025-04-20 19:32:42 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-20 19:32:42 [info] Password input was shown and filled in.
+2025-04-20 19:32:42 [info] Successfully logged in.
+2025-04-20 19:32:43 [info] Auth state is saved
