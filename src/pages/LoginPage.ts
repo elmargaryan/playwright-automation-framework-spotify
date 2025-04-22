@@ -8,8 +8,7 @@ export class LoginPage extends BasePage {
 		loginButton: this.page.getByTestId("login-button"),
 		loginWithPasswordButton: this.page.getByRole("button", { name: "Log in with a password" }),
 		loggedInText: this.page.getByTestId("status-logged-in"),
-		loggedInAsText: this.page.getByTestId("user-info"),
-		userProfileMenu: this.page.getByTestId("user-widget-link"),
+		errorMessage:  this.page.getByText('Incorrect username or password')
 	} as const;
 
 	constructor(page: Page, pageUrl = "/login") {

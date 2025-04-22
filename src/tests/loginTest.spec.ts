@@ -2,10 +2,21 @@ import { expect } from "playwright/test";
 import { decrypt } from "../utils/EncryptEnvVars";
 import logger from "../utils/LoggerUtil";
 import { test } from "./baseTest";
+import loginData from "../data/loginTestData.json" assert { type: "json" };
 
 const authFile = "src/config/auth.json";
 
-test("Login as a user and save state in auth file", async ({ loginPage }) => {
+for (const user of loginData) {
+	test(`Login with invalid credentials for ${user.email} `, async ({ loginPage }) => {
+		await loginPage.goToPage("https://accounts.spotify.com");
+		await loginPage.fillLoginEmail(user.email);
+		await loginPage.fillLoginPassword(user.password);
+		await loginPage.clickLoginButton();
+		await expect(loginPage.locators.errorMessage).toBeVisible();
+	});
+}
+
+test("Login as a valid user and save state in auth file", async ({ loginPage }) => {
 	await loginPage.goToPage("https://accounts.spotify.com");
 	await loginPage.fillLoginEmail(decrypt(process.env.username!));
 	await loginPage.fillLoginPassword(decrypt(process.env.password!));

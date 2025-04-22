@@ -109,3 +109,33 @@
 2025-04-20 19:32:42 [info] Password input was shown and filled in.
 2025-04-20 19:32:42 [info] Successfully logged in.
 2025-04-20 19:32:43 [info] Auth state is saved
+2025-04-20 19:58:41 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-20 19:58:44 [info] ⚙️ Global setup is completed.
+2025-04-20 19:59:10 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-20 19:59:35 [info] ⚙️ Global setup is completed.
+2025-04-20 20:00:24 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-22 20:39:36 [info] ⚙️ Global setup is completed.
+2025-04-22 20:43:18 [info] ⚙️ Global setup is completed.
+2025-04-22 20:43:18 [info] 🧹 Global teardown ran (nothing to clean yet)
+2025-04-22 20:46:03 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 20:46:03 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 20:46:04 [info] Element "getByTestId('login-password')" not found. Continuing with other flow...
+2025-04-22 20:46:04 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 20:46:16 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 20:46:16 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 20:46:27 [info] Error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByTestId('login-password')[22m
+. Error or timeout occurred for selector "getByTestId('login-password')". Continuing with other flow...
+2025-04-22 20:46:27 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 20:46:27 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 21:09:34 [info] ⚙️ Global setup is completed.
+2025-04-22 21:09:42 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 21:09:42 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 21:09:42 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 21:09:42 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 21:09:47 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 21:09:47 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 21:09:48 [info] Navigated to https://accounts.spotify.com/login
+2025-04-22 21:09:48 [info] Element "getByTestId('login-password')" is visible. Taking action...
+2025-04-22 21:09:50 [info] 🧹 Global teardown ran (nothing to clean yet)

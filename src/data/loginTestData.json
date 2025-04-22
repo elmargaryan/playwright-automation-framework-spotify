@@ -1,0 +1,18 @@
+[
+	{
+		"email": "invalid-email",
+		"password": "password123"
+	},
+	{
+		"email": "validuser@example.com",
+		"password": "wrongPassword123"
+	},
+	{
+		"email": "",
+		"password": "password123"
+	},
+	{
+		"email": "validuser123@example.com",
+		"password": ""
+	}
+]
